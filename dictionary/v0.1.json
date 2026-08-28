@@ -1,0 +1,21 @@
+{
+  "bella_ir": "0.1",
+  "immutable_within_version": true,
+  "symbols": {
+    "INT": "intent",
+    "SEM": "semantic meaning",
+    "PRV": "privacy constraints",
+    "EVD": "evidence and provenance",
+    "REV": "reversibility boundaries",
+    "BGT": "budget and resource constraints",
+    "VAL": "validation requirements",
+    "UNC": "material uncertainty",
+    "MEM": "memory or state record",
+    "TASK": "instruction or work item",
+    "MSG": "agent-to-agent message",
+    "FACT": "grounded assertion",
+    "RULE": "invariant or policy",
+    "REF": "reference declaration",
+    "DELTA": "change from referenced state"
+  }
+}

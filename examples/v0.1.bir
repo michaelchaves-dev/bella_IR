@@ -1,0 +1,13 @@
+# Bella IR v0.1 illustrative records
+
+# Rule: preserve semantic meaning during compression.
+BIR/0.1|K:RULE|ID:rule.semantic-invariant|S:BIR|P:preserve|O:SEM|C:VAL,UNC|V:0.1
+
+# Rule: reference canonical content rather than duplicate it.
+BIR/0.1|K:RULE|ID:rule.reference-first|S:store|P:prefer|O:REF|C:reconstructable=true|V:0.1
+
+# Example agent task.
+BIR/0.1|K:TASK|ID:task.42|S:agent|P:audit|O:@repo.817|C:scope=security+architecture,REV,VAL|Q:1.0|V:0.1
+
+# Example delta. Values are illustrative only.
+BIR/0.1|K:DELTA|ID:delta.1|R:@policy.privacy|D:mask_ratio:0.25>0.20|V:0.1
